@@ -1,0 +1,125 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    background-color: #faf0ff;
+    margin: 0;
+    padding: 25px;
+}
+
+form {
+    background-color: #e9bcff;
+    color:#e5f7f0;
+    padding: 30px;
+    border: 10px solid #b9dcd1;
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto ;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"], input[type="address"]  {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 5px solid #e5f7f0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #faf0ff;
+}
+
+legend {
+  color: #555555;
+  background-color: #faf0ff;
+  padding: 10px;
+  margin: 10px 0;
+  border: 5px solid #e5f7f0;
+  box-sizing: border-box;
+  border-radius: 50px;
+  
+}
+
+fieldset {
+  -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+border: 2px solid #e5f7f0;
+box-sizing: border-box;
+border-radius: 25px;
+}
+
+input[type="checkbox"]  {
+
+  outline: 5px solid #e5f7f0;
+}
+
+
+
+input[type="submit"] {
+    background-color: #e5f7f0;
+    color: #9545a0;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:#9545a0;
+    color: white;
+  
+  }
+  
+  input[type="reset"] {
+    background-color: #e5f7f0;
+    color: #9545a0;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="reset"]:hover {
+    background-color:#a04545;
+    color: white;
+    font-display: ;
+  }
+
+
+
+  h1 {
+    text-align: center;
+    text-emphasis: bold;
+    color: #9545a0;
+    font-weight: 800;
+  }
+
+  p {
+    text-align: center;
+    text-emphasis: bold;
+    color: #9545a0;
+    font-size: 15px;
+  }
+
+  form label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+
+  footer {
+    font-family: cursive;
+  }
+  .container {
+    display: flex;
+    gap: 5px;
+  }
